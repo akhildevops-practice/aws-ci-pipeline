@@ -1,6 +1,8 @@
 version: 0.0
 os: linux
-
+files:
+  - source: /
+    destination: /opt/codedeploy-agent/deployment-root/5ab23a3b-04b9-426b-8240-1d6b3f2dafce/d-WBIBKEPA6/deployment-archive
 hooks:
   ApplicationStop:
     - location: scripts/stop_container.sh
